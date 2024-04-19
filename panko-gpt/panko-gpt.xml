@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://discord.gg/v6XCs6kV</Support>
   <Project>https://hub.docker.com/repository/docker/catalinbertadev/panko-gpt/general</Project>
   <Overview>Bot Creation Platform - Streamline GPT bot creation for Discord and soon other platforms.</Overview>
   <Category>Other: Status:Beta</Category>
