@@ -1,25 +1,18 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>panko-gpt</Name>
-  <Repository>catalinbertadev/panko-gpt:0.0.1</Repository>
-  <Registry/>
+  <Repository>catalinbertadev/panko-gpt:latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/catalinbertadev/panko-gpt/general</Registry>
   <Network>bridge</Network>
-  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://hub.docker.com/repository/docker/catalinbertadev/panko-gpt/general</Project>
   <Overview>Bot Creation Platform - Streamline GPT bot creation for Discord and soon other platforms.</Overview>
   <Category>Other: Status:Beta</Category>
-  <WebUI>http://[IP]:[PORT:5003]</WebUI>
-  <TemplateURL/>
+  <WebUI>http://[IP]:[PORT:5002]</WebUI>
   <Icon>https://catalinberta.com/files/panko/logos/default-round.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1713276072</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
-  <Requires/>
-  <Config Name="Host Port 1" Target="5003" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5003</Config>
+  <DonateText>https://www.paypal.com/donate/?hosted_button_id=42KHL5J2X3ASQ</DonateText>
+  <Config Name="MONGO_DB_URL" Target="MONGO_DB_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Port" Target="5002" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5002</Config>
 </Container>
