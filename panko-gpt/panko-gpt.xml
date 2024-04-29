@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://discord.gg/6cSYhyFx</Support>
+  <Support>https://eq6w.short.gy/discord-invite</Support>
   <Project>https://hub.docker.com/repository/docker/catalinbertadev/panko-gpt/general</Project>
   <Overview>Bot Creation Platform - Streamline GPT bot creation for Discord, Telegram and soon other platforms. Features: Vector Search (RAG), Easy management via UI. Will soon be open source on GitHub</Overview>
   <Category>Other: Status:Beta</Category>
