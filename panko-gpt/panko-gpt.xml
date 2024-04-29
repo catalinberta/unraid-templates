@@ -8,11 +8,12 @@
   <Privileged>false</Privileged>
   <Support>https://discord.gg/v6XCs6kV</Support>
   <Project>https://hub.docker.com/repository/docker/catalinbertadev/panko-gpt/general</Project>
-  <Overview>Bot Creation Platform - Streamline GPT bot creation for Discord and soon other platforms.</Overview>
+  <Overview>Bot Creation Platform - Streamline GPT bot creation for Discord, Telegram and soon other platforms. Features: Vector Search (RAG), Easy management via UI. Will soon be open source on GitHub</Overview>
   <Category>Other: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:5002]</WebUI>
   <Icon>https://catalinberta.com/files/panko/logos/default-round.png</Icon>
-  <DonateText>https://www.paypal.com/donate/?hosted_button_id=42KHL5J2X3ASQ</DonateText>
+  <DonateLink>https://www.paypal.com/donate/?hosted_button_id=42KHL5J2X3ASQ</DonateLink>
+  <DonateText>If you like my work please consider Donating.</DonateText>
   <Config Name="MONGO_DB_URL" Target="MONGO_DB_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Port" Target="5002" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5002</Config>
 </Container>
