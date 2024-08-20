@@ -8,7 +8,7 @@
   <Privileged>false</Privileged>
   <Support>https://eq6w.short.gy/discord-invite</Support>
   <Project>https://github.com/catalinberta/panko-gpt</Project>
-  <Overview>GPT Bot Manager - Streamline GPT bot creation for Discord, Telegram and soon other platforms. Features: Vector Search (RAG), Easy management via UI.</Overview>
+  <Overview>AI Bot Manager - Streamline GPT bot creation for Whatsapp, Discord, Telegram and soon other platforms. Features: Vector Search (RAG), Easy management via UI.</Overview>
   <Category>Other: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:5002]</WebUI>
   <Icon>https://catalinberta.com/files/panko/logos/default-round.png</Icon>
@@ -24,4 +24,6 @@
   <Config Name="MONGO_ATLAS_PROJECT_ID" Target="MONGO_ATLAS_PROJECT_ID" Default="" Mode="" Description="You can find the Project ID in the url after you log into the atlas cloud account and selecting the project. e.g. https://cloud.mongodb.com/v2/PROJECT_ID_HERE#/overview" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="MONGO_ATLAS_CLUSTER_NAME" Target="MONGO_ATLAS_CLUSTER_NAME" Default="" Mode="" Description="e.g. the name of the cluster you set when you first created the MongoDB account" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="MONGO_ATLAS_DB_NAME" Target="MONGO_ATLAS_DB_NAME" Default="" Mode="" Description="(Optional) if not specified, pankogpt will be used" Type="Variable" Display="always" Required="false" Mask="false" />
+  <Config Name="GLOBAL_OPEN_AI_KEY" Target="GLOBAL_OPEN_AI_KEY" Default="" Mode="" Description="(Optional) but recommended to help pull certain info like all available models" Type="Variable" Display="always" Required="false" Mask="false" />
+
 </Container>
