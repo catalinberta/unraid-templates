@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Container version="2">
+<Container version="3">
   <Name>panko-gpt</Name>
   <Repository>catalinbertadev/panko-gpt:latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/catalinbertadev/panko-gpt/general</Registry>
@@ -20,7 +20,7 @@
   <Screenshot>https://catalinberta.com/files/panko/panko-gpt/screenshots/04-settings.png</Screenshot>
   <Config Name="PORT" Target="5002" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5002</Config>
   <Config Name="MONGO_ATLAS_PUBLIC_KEY" Target="MONGO_ATLAS_PUBLIC_KEY" Default="" Mode="" Description="You can use the free tier from MongoDB Atlas" Type="Variable" Display="always" Required="true" Mask="false" />
-  <Config Name="MONGO_ATLAS_PRIVATE_KEY" Target="MONGO_ATLAS_PRIVATE_KEY" Default="" Mode="" Description="Tutorial how to obtain these keys: https://tinyurl.com/25tesjpn" Type="Variable" Display="always" Required="true" Mask="false" />
+  <Config Name="MONGO_ATLAS_PRIVATE_KEY" Target="MONGO_ATLAS_PRIVATE_KEY" Default="" Mode="" Description="Tutorial how to obtain these keys: https://tinyurl.com/25tesjpn (IMPORTANT: Ensure the API Keys have 'Organization Owner' permissions)" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="MONGO_ATLAS_PROJECT_ID" Target="MONGO_ATLAS_PROJECT_ID" Default="" Mode="" Description="You can find the Project ID in the url after you log into the atlas cloud account and selecting the project. e.g. https://cloud.mongodb.com/v2/PROJECT_ID_HERE#/overview" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="MONGO_ATLAS_CLUSTER_NAME" Target="MONGO_ATLAS_CLUSTER_NAME" Default="" Mode="" Description="e.g. the name of the cluster you set when you first created the MongoDB account" Type="Variable" Display="always" Required="true" Mask="false" />
   <Config Name="MONGO_ATLAS_DB_NAME" Target="MONGO_ATLAS_DB_NAME" Default="" Mode="" Description="(Optional) if not specified, pankogpt will be used" Type="Variable" Display="always" Required="false" Mask="false" />
